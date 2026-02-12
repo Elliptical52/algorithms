@@ -15,6 +15,5 @@ def bubble_sort(arr: list[int]):
             if arr[i] > arr[i+1]:
                 is_sorted = False
                 arr[i], arr[i+1] = arr[i+1], arr[i]
-            i += 1
-
+                
     return arr
